@@ -2,20 +2,20 @@
 
 ## Overview
 
-This packages serves as example on how to communicate to the niryo one robot arm via ros, by establishing an action server connection. 
+This package serves as an example on how to communicate with the Niryo One robot arm via ROS, by establishing an action server connection. 
 
 ## Dependencies
 This package depends on the actionlib and the niryo_one_msgs packages
 #### actionlib 
 Please refer to the ![documentation](http://wiki.ros.org/actionlib) of the actionlib package 
 #### niryo_one_msgs
-In your catkin worksapces source folder, do 
+In your catkin workspace source folder, do 
 
 ```
 $ git clone https://github.com/NiryoRobotics/niryo_one_ros.git
 $ catkin build
 ```
-this will get you the whole niryo one ros stack
+this will get you the whole Niryo One ros stack
 
 ## Installation
 In your catkin worksapces source folder, do 
@@ -27,7 +27,7 @@ $ catkin build
 
 ## Included nodes
 ### simple_command_node
-An example node that walks you through simple commands like got to pose (rpy, or qutarniion) and close/open gripper
+An example node that walks you through simple commands like move to pose (rpy, or qutarniion) and close/open gripper
 
 
 ## Run code 
