@@ -1,0 +1,6 @@
+<launch>
+
+   <include ns="planningNS" file="$(find niryo_one_moveit_config)/launch/demo.launch"/> 
+   <node pkg="robot_tester" type="robot_tester_node" name="robot_tester_node" output="screen"/> 
+
+</launch>
