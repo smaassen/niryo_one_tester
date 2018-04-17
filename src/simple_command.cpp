@@ -133,7 +133,7 @@ int main(int argc, char **argv)
 
 
   pose_quat.position.x = x_goal;
-  pose_quat.position.y = y_goal;
+  pose_quat.position.y = -y_goal; // for better demonstration purposes
   pose_quat.position.z = z_goal;
   pose_quat.orientation.x = quat_x;
   pose_quat.orientation.y = quat_y;
