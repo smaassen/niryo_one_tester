@@ -1,6 +1,0 @@
-<launch>
-
-   <!--   <include file="$(find robot_tester)/launch/planning_move_group.launch"/> -->
-   <node pkg="robot_tester" type="robot_tester_onboard_node" name="robot_tester_node" output="screen"/> 
-
-</launch>
