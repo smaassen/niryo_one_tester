@@ -45,6 +45,8 @@ In the same terminal window, run the node (for example simple_command_node) by
 ```
 rosrun niryo_one_tester simple_command_node
 ```
+## License
+The source code is released under a BSD 3-Clause license
 
 ## Credits
 **Author(s)**: Steve Maassen   
