@@ -17,6 +17,13 @@ $ catkin build
 ```
 this will get you the whole Niryo One ros stack
 
+#### python-catkin-tools package
+You should install python-catkin-tools package in order to execute the "catkin build" command.
+
+```
+$ sudo apt-get install python-catkin-tools
+```
+
 ## Installation
 In your catkin worksapces source folder, do 
 
